@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-cp .bashrc ~/
-cp .vimrc ~/
-cp .pythonstartup ~/
-cp -r .vim ~/
-cp -r bin ~/
+cat .bashrc >> ~/.bashrc
+ln -s .vimrc ~/
+ln -s .pythonstartup ~/
+ln -s .vim ~/
+ln -s bin ~/
 

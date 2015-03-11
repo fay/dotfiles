@@ -1,3 +1,4 @@
+set nocompatible
 " set tab to 4 space
 set smartindent
 set expandtab  
@@ -24,3 +25,6 @@ set hlsearch
 set syntax=on
 filetype indent on
 colorscheme ron
+colorscheme darkblue
+syntax enable
+syntax on
